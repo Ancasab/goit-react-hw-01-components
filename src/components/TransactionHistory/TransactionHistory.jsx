@@ -1,12 +1,11 @@
 import React from 'react'
-// import { type } from '@testing-library/user-event/dist/type'
 import PropTypes from 'prop-types'
+import css from './TransactionHistory.module.css'
 
 
 const TransactionHistory = ({tansactions}) => {
   return (
-    
-    <table className="transaction-history">
+    <table className={css.transactionHistory}>
         <thead>
             <tr>
                 <th>Type</th>
@@ -15,9 +14,9 @@ const TransactionHistory = ({tansactions}) => {
             </tr>
         </thead>
 
-        <tbody className="transaction-list">
-            {tansactions.map(({type, amount, currency}) => (
-             <tr className='transaction' >
+        <tbody className={css.transactionList}>
+            {tansactions.map(({id, type, amount, currency}) => (
+            <tr className={css.transaction} key={id}>
                 <td>{type}</td>
                 <td>{amount}</td>
                 <td>{currency}</td>

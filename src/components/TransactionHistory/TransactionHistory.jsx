@@ -8,9 +8,9 @@ const TransactionHistory = ({tansactions}) => {
     <table className={css.transactionHistory}>
         <thead>
             <tr>
-                <th>Type</th>
-                <th>Amount</th>
-                <th>Currency</th>
+                <th>TYPE</th>
+                <th>AMOUNT</th>
+                <th>CURRENCY</th>
             </tr>
         </thead>
 

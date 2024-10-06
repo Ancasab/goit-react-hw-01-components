@@ -6,7 +6,7 @@ import css from "./Profile.module.css";
 
 const Profile = ({username, tag, location, avatar, stats}) => {
   return (
-    <div className="profile">
+    <div className={css.profile}>
       <div className={css.description}>
         <img
           src={avatar}

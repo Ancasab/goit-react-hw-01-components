@@ -1,22 +1,24 @@
 .transactionHistory {
-border: 3px solid black;
+border: 3px solid darkgray;
 width: 600px;
-margin: 60px auto;
+margin: 20px auto;
 padding: 10px;
 border-collapse: collapse;
+font-size: 18px;
+color: darkgray;
 }
 
 & th,
 & td {
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid darkgray;
 }
 & th {
     background-color: #05bcd5;
     color: white;
     font-weight: bold;
-    border: 1px solid black;
+    border: 1px solid darkgray;
 }
 
 & tr:nth-child(even) {
@@ -24,7 +26,7 @@ border-collapse: collapse;
 }
 
 & td {
-    border: 1px solid black;
+    border: 1px solid darkgray;
 }
 
 

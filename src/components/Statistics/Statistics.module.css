@@ -1,20 +1,20 @@
 .statistics {
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 340px;
+    margin: 0 auto;
+    max-width: 340px;
     padding: 70px;
     background-color: #e7ecf2;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
 }
 
 .title {
-    margin-left: auto;
+    max-width: 200px;
+    /* margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 0; */
+    margin: 0 auto;
+    padding: 30px 70px;
     text-align: center;
     text-transform: uppercase;
     background-color: white;

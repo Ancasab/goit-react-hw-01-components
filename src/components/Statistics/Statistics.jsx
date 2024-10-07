@@ -5,25 +5,23 @@ import { getRandomHexColor } from './getRandomHexColor'
 
 const Statistics = ({title, stats}) => {
   return (
-    <div>
-      <section className={css.statistics}>
-        <h2 className={css.title}>{title}</h2>
+    <section className={css.statistics}>
+      <h2 className={css.title}>{title}</h2>
 
-        <ul className={css.statList}>
-          {stats.map((stat) => (
-            <li className={css.item}
-              key={stat.id}
-              style={{ backgroundColor: getRandomHexColor() }}>
-              
-              <span className={css.label} key={stat.id}>{stat.label}</span>
-              <span className={css.percentage} key={stat.id}> {stat.percentage}%</span>
-          </li>
-        
-          ))}
-        </ul>  
+      <ul className={css.statList}>
+        {stats.map((stat) => (
+          <li className={css.item}
+            key={stat.id}
+            style={{ backgroundColor: getRandomHexColor() }}>
+            
+            <span className={css.label} key={stat.id}>{stat.label}</span>
+            <span className={css.percentage} key={stat.id}> {stat.percentage}%</span>
+        </li>
+      
+        ))}
+      </ul>  
 
-      </section>
-    </div>
+    </section>
   )
 }
 

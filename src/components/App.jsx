@@ -13,6 +13,7 @@ export const App = () => {
     <div
       style={{
         // height: '100vh',
+        maxWidth: '1200',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

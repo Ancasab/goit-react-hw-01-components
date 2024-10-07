@@ -1,11 +1,13 @@
 .transactionHistory {
 border: 3px solid darkgray;
-width: 600px;
+max-width: 600px;
 margin: 20px auto;
-padding: 10px;
 border-collapse: collapse;
 font-size: 18px;
 color: darkgray;
+display: flex;
+flex-direction: column;
+
 }
 
 & th,
@@ -13,6 +15,7 @@ color: darkgray;
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid darkgray;
+    width: 140px;
 }
 & th {
     background-color: #05bcd5;

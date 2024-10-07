@@ -1,6 +1,11 @@
 .friendList{
-    margin: 30px;
-    padding: 0;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px
+
 }
 
 .item {
@@ -8,7 +13,7 @@
     align-items: center;
     margin-top: 20px;
     background-color: white;
-    min-width: 340px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
